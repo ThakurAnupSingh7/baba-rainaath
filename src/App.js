@@ -1,25 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Menu from './Menu';
+import UperNav from './UperNav'
+import Home from './home';
+import About from './about';
+import Service from './what-we-do';
+import Waytogive from './way-to-give'
+import Contact from './contact';
+import Footer from './footer'
+
+
+import {BrowserRouter , Route , Switch } from 'react-router-dom'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <div>
+      <UperNav/>
+     <Menu/>
+     <Switch>
+    <Route path="/" exact component={Home}/>
+     <Route path="/about" component={About}/>
+   <Route path ="/service" component={Service}/>
+   <Route path ="/waytogive" component={Waytogive}/>
+   <Route path ="/contact" component={Contact}/>
+   
+ </Switch>
+
+<br/>
+<Footer/>
+
     </div>
+    </BrowserRouter>
   );
 }
 

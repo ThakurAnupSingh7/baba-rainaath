@@ -1,0 +1,119 @@
+.row{
+    margin:0px !important ;
+    padding:0px !important;
+   
+}
+
+.image-logo{
+    float: right;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #00aaa6;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 300px;
+    
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+     height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+
+
+
+    .fa {
+        padding: 8px;
+        font-size: 22px;
+        width: 39px;
+        text-align: center;
+        text-decoration: none;
+        margin: 28px 2px;
+        border-radius: 50%;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        background: #00aaa6;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #00aaa6;
+        color: white;
+      }
+      
+      
+      
+      .fa-linkedin {
+        background: #00aaa6;
+        color: white;
+      }
+      
+      .fa-youtube {
+        background: #00aaa6;
+        color: white;
+      }
+      
+      .fa-instagram {
+        background: #00aaa6;
+        color: white;
+      }
+      
+      
+      .fa-skype {
+        background: #00aaa6;
+        color: white;
+      }
+
+
+      .donate{
+        background: #ed811e;
+        width: 160px;
+        text-align: center;
+        color: white;
+        padding: 18px;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      
+      .donate:hover {
+        background:#8a4402;
+        
+    }

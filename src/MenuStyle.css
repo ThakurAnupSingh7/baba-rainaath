@@ -1,0 +1,38 @@
+
+.logo-content{
+    font-size: 22px;
+    margin-left: 22%;
+    color: #00aaa6;
+}
+
+.navbar{
+    width:100%;
+    height:auto;
+    background:white;
+}
+
+.navbar ul{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    text-transform: uppercase;
+    padding: 16px 55px 0px 0px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.navbar ul li a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+.navbar ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
