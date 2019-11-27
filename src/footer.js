@@ -15,7 +15,7 @@ const Footer=()=>{
               <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="pic1" width="100px"/> </a>
                 <p>We are an award-winning creative NGO, dedicated to the best result in Education, Free Health, Free Foods, Free Education for Poor Students, and Other.</p>
                
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Baaba Rainaath Brahm Nishulk Shiksha Seva Sansthaan</span><span>. </span><span>All Rights Reserved.</span></p>
               </div>
             </div>
             <div class="col-md-4">

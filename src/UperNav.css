@@ -117,3 +117,31 @@
         background:#8a4402;
         
     }
+
+
+    @media screen and (max-width:800px){
+      .donate {
+        float: left;
+        background: #ed811e;
+        width: 160px;
+        text-align: center;
+        color: white;
+        padding: 18px;
+        margin-top: -76px;
+        font-weight: 700;
+        font-size: 16px;
+        float: right;
+       
+    }
+
+    .image-logo{
+      float:left;
+  }
+.search{
+  display: none;
+}
+.social-media{
+  display: none;
+}
+
+    }
