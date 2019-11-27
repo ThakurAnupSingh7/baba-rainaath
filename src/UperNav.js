@@ -10,7 +10,7 @@ return(
     <img src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="pic1" width="100px"/> 
     </div>
     </div> 
-    <div className="col-md-5">
+    <div className="col-md-5 search">
     <div className="container h-100">
       <div className="d-flex justify-content-center h-100">
         <div className="searchbar">
@@ -22,7 +22,7 @@ return(
     
         </div>
 
-        <div className="col-md-3">
+        <div className="col-md-3 social-media">
         <a href="/" className="fa fa-facebook"> </a>
 <a href="/" className="fa fa-twitter"> </a>
 <a href="/" className="fa fa-linkedin"> </a>
