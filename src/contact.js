@@ -44,7 +44,7 @@ return(
                      <div className="single-contact">
                         <i className="fa fa-map-marker"></i>
                         <h5>Address</h5>
-                        <p>Deoria Gorakhpur, U.P. </p>
+                        <p>Near Savitri nursing home,Salempur Road,Sonda,Deoria, U.P. </p>
                      </div>
                      <div className="single-contact">
                         <i className="fa fa-phone"></i>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './UperNav.css'
-
+import {Link} from 'react-router-dom';
 const UperNav=()=>{
 return(
     <div>
@@ -23,7 +23,7 @@ return(
         </div>
 
         <div className="col-md-3 social-media">
-        <a href="/" className="fa fa-facebook"> </a>
+        <a href="https://www.facebook.com/rajat.socialworker/" className="fa fa-facebook"> </a>
 <a href="/" className="fa fa-twitter"> </a>
 <a href="/" className="fa fa-linkedin"> </a>
 <a href="/" className="fa fa-instagram"> </a>
@@ -32,7 +32,7 @@ return(
      </div>
 
     <div className="col-md-2">
-       <p className="donate">Donate</p> 
+    <Link to="/waytogive"><p className="donate">Donate</p> </Link>
     </div>
     </div>
 

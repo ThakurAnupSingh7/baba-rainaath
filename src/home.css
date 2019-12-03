@@ -1,8 +1,78 @@
+
+.mission{
+    background-color: #efdee0;
+}
+
+
+.mission .mission-details{
+    padding: 50px 80px;
+    text-align:justify;
+}
+
+.mission .mission-details h3{
+    line-height: 1em;
+    color: #00aaa6;
+    font-weight: 700;
+    font-size: 44px;
+
+   
+}
+
+.mission .mission-details p{
+    font-weight: 600;
+    margin: 12px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #6878d9;
+}
+
+.mission .mission-details h6{
+    font-weight: 700;
+    margin: 12px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #b64fdb;
+
+}
+
+.mission .mission-details button{
+    line-height: 39px;
+    padding: 0 23px;
+     border:none;
+     font-size: 13px;
+     font-weight: 700;
+     cursor: pointer;
+     letter-spacing: 1px;
+     border-radius: 4px;
+     text-shadow: none;
+    color: black;
+    border: 2px solid black;
+     background-color:transparent;
+ 
+     }
+ 
+     .mission .mission-details button:hover{
+         padding: 0 30px;
+        color:white;
+         background: #01786e;
+         border: none;
+     }
+
+
+
+.container-fluid{
+    background-color: #efdee0; 
+}
+
+
 .Wwork{
     color: #00aaa6;
     font-weight: 700;
     margin-left: 1%;
     font-size:44px;
+    padding: 25px 0px 0px;
 }
 
 .place{
@@ -11,9 +81,114 @@
 }
 
 .p-detail{
-    color: #55096a;
     font-family: inherit;
     font-size: 16px;
     text-align: justify;
+    font-weight: 600;
+    color: #6878d9;
 }
+
+
+
+/* Voluntring page*/
+
+
+.vimg{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    
+}
+
+.vimg:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+     padding:1px;
+
+}
+
+
+.Vdetails{
+    background-color: #e7e7e7;
+}
+
+.Vbox{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.Vbox h4{
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: 400;
+    color: #1abc9c;
+   
+}
+
+
+.separator.small {
+    background-color:#b64fdb;
+    height: 3px;
+    position: relative;
+    width: 35px;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+.Vbox p{
+    font-weight: 600;
+    margin: 12px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #6878d9;
+}
+
+
+
+.registration{
+    height: 350px;
+    background-image: url("/img/gallary5.jpg");
+    background-position: 50% 76px;
+    position: static;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center 0;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    text-align: center;
+    color: white;
+
+}
+
+.registration .redetails{
+    padding: 130px 40px;
+}
+
+.registration .redetails h6{
+font-size: 24px;
+}
+
+.registration .redetails button{
+   line-height: 39px;
+   padding: 0 23px;
+    border:none;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    text-shadow: none;
+   color: rgb(255, 255, 255);
+    background-color: rgb(66, 188, 155);
+
+    }
+
+    .registration .redetails button:hover{
+        padding: 0 30px;
+        border: 2px solid rgb(66, 188, 155);
+        background: #01786e;
+    }
+
 
