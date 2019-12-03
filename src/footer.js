@@ -15,14 +15,14 @@ const Footer=()=>{
               <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src = {process.env.PUBLIC_URL + "/img/logo.jpg"} alt="pic1" width="100px"/> </a>
                 <p>We are an award-winning creative NGO, dedicated to the best result in Education, Free Health, Free Foods, Free Education for Poor Students, and Other.</p>
                
-                <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Baaba Rainaath Brahm Nishulk Shiksha Seva Sansthaan</span><span>. </span><span>All Rights Reserved.</span></p>
+                <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Baba Rainath Brahm Nishulk Shiksha Seva Sansthaan</span><span>. </span><span>All Rights Reserved.</span></p>
               </div>
             </div>
             <div class="col-md-4">
               <h5>Contacts</h5>
               <dl class="contact-list">
                 <dt>Address:</dt>
-                <dd>Deoria Gorakhpur, U.P.</dd>
+                <dd>Near Savitri nursing home,Salempur Road,Sonda,Deoria, U.P.</dd>
               </dl>
               <dl class="contact-list">
                 <dt>email:</dt>
@@ -46,7 +46,7 @@ const Footer=()=>{
           </div>
         </div>
         <div class="row no-gutters social-container">
-          <div class="col"><a class="social-inner" href="/"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+          <div class="col"><a class="social-inner" href="https://www.facebook.com/rajat.socialworker/"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
           <div class="col"><a class="social-inner" href="/"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
           <div class="col"><a class="social-inner" href="/"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
           <div class="col"><a class="social-inner" href="/"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
