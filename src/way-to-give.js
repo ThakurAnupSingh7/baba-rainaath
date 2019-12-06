@@ -12,7 +12,7 @@ return(
         our Donor Support team to make a online donation like (Phonpe, Gpay, Paytm etc)
          donation over the telephone. <br/> </p>
          <h6>Donor Support Team <br/>
-         8382049087, 9451980815</h6><br/>
+         8382049087, 9451980815</h6>
          <p>Our opening hours are 9am-5pm weekdays.</p>
 <br/>
 <p>You can also send us a cheque via post to:</p>
