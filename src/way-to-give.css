@@ -7,4 +7,14 @@
 .donate-details h2{
     font-size: 2.4rem;
     color: #00aaa6;
+    font-weight: 500;
+}
+
+.donate-details p{
+ color: #7e0fe9;
+}
+
+.donate-details h6{
+    color:blue;
+    font-weight: 500;
 }
